@@ -1,0 +1,76 @@
+.eye, .eye-iris, .eye-pupil, .eye-conjunctiva, .eye-container {
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.eye {
+    font-size: 1rem;
+}
+
+.eye-container {
+    height: 12em;
+    width: 12em;
+    background: radial-gradient(#ffffff, #6c8064);
+
+}
+
+.eye-conjunctiva {
+    height: 6em;
+    width: 6em;
+    background: radial-gradient(#ffffff, #b4a0a0);
+    border: solid 0.01em black;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.eye-iris {
+    height: 3em;
+    width: 3em;
+    margin: 0.5em;
+    border: solid 1px black;
+}
+
+.eye-pupil {
+    height: 1.5em;
+    width: 1.5em;
+    background-color: black;
+}
+
+/* Types */
+
+.eye-type-round {
+    clip-path: polygon(12% 54%, 14% 49%, 19% 43%, 26% 37%, 35% 33%, 45% 32%, 60% 34%, 74% 41%, 83% 48%, 95% 57%, 74% 66%, 52% 73%, 43% 73%, 33% 70%, 22% 63%);
+}
+
+.eye-type-rounded-almond-shaped {}
+
+.eye-type-almond-shaped {}
+
+.eye-type-narrow-almond-shaped {}
+
+.eye-type-drooping-eyelids {}
+
+.eye-type-drooping-angles-and-eyelids {}
+
+.eye-type-asian {}
+
+.eye-type-rounded-asian {}
+
+/* Colors */
+
+.eye-color-green {
+    background: radial-gradient(#00FF7F 1%, #ffffff);
+}
+
+.eye-color-blue {
+    background: radial-gradient(#4169E1 1%, #ffffff);
+}
+
+.eye-color-skyblue {
+    background: radial-gradient(#6495ED 1%, #ffffff);
+}
+
+.eye-color-brown {
+    background: radial-gradient(#8B4513 1%, #ffffff);
+}

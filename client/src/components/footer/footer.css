@@ -1,0 +1,25 @@
+.footer {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    min-height: 55px;
+    min-width: 90%;
+    max-width: 90%;
+    font-size: x-large;
+    background-color: #374950;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.copyright {
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .footer {
+        display: none;
+    }
+}

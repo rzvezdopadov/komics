@@ -1,0 +1,23 @@
+.blockLeft {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 400px) {
+    .blockLeft {
+        display: none;
+    }
+}
+
+.brandWrapper {
+    user-select: none;
+    flex-wrap: wrap;
+    overflow: visible;
+}
+
+.brand {
+    font-size: 1.6rem;
+    color: #ffffff;
+    text-decoration: none;
+}

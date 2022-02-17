@@ -1,0 +1,33 @@
+.buttonCircleImgWrapper {
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background: #809DA8;
+    border: 1px solid #2E383C;
+    margin: 5px;
+}
+
+.buttonCircleImgWrapper:hover {
+    background: #8BA0A8;
+    border: 1px solid #aceb87;
+    cursor: pointer;
+    animation: buttonCircleImgWrapperDo 0.5s;
+}
+
+@keyframes buttonCircleImgWrapperDo {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.buttonCircleImgImg {
+    height: 1.5rem;
+    width: 1.5rem;
+    user-select: none;
+}

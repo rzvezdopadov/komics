@@ -1,0 +1,23 @@
+@import url(./blockleft/blockleft.css);
+@import url(./blockright/blockright.css);
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 3px;
+    color: #ffffff;
+    min-height: 55px;
+    min-width: 90%;
+    max-width: 90%;
+    flex-wrap: wrap;
+    background-color: #374950;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+@media (max-width: 800px) {
+    .header {
+        justify-content: center;
+    }
+}
